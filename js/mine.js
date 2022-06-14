@@ -1,0 +1,34 @@
+function write(){
+    document.write('        <div class="post">');
+    document.write('            <div class="post_avatar">');
+    document.write('                <img src="img/my.jpg" alt="imgOfPost">');
+    document.write('            </div>');
+    document.write('            <div class="post_body">');
+    document.write('                <div class="post_heder">');
+    document.write('                    <div class="post_heder_text">');
+    document.write('                        <h3><a href="https://twitter.com/tajaldeenhseen" target="_blank">Taj aldeen</a>');
+    document.write('                            <span class="post_header_special">');
+    document.write('                                <span class="material-symbols-outlined post_badge">');
+    document.write('                                    verified');
+    document.write('                                </span>');
+    document.write('                            </span>');
+    document.write('                        </h3>');
+    document.write('                    </div>');
+    document.write('                    <div class="post_headerDescription">');
+    document.write('                        <p id="text">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>');
+    document.write('                    </div>');
+    document.write('                    <div class="post_footer">');
+    document.write('                        <span class="material-symbols-outlined">');
+    document.write('                            repeat');
+    document.write('                        </span>');
+    document.write('                        <span class="material-symbols-outlined">');
+    document.write('                            favorite_border');
+    document.write('                        </span>');
+    document.write('                        <span class="material-symbols-outlined">');
+    document.write('                            publish');
+    document.write('                        </span>');
+    document.write('                    </div>');
+    document.write('                </div>');
+    document.write('            </div>');
+    document.write('        </div> ');
+}
